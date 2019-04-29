@@ -28,3 +28,59 @@ table {
   border-spacing: 0;
 } 
 /* конец кода сброса стилей браузера */
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-family: 'Russo One', serif;
+  background-color: #edf1f2;
+  text-align: center;
+  line-height: 125%;
+  animation-delay: 1s;
+}
+nav{
+  width: 100%;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.headline{
+  height: 55px;
+  background-color:#3f4246;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #3f4246;
+  opacity: .85;
+}
+#menu{
+  margin: 0;
+  padding: 0;
+}
+#menu li{
+  float: left;
+  width: 25%;
+  line-height: 55px;
+  list-style: none;
+}
+#menu li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  background-color: rgba(0,0,0,.1);
+  display: block;
+  text-transform: uppercase;
+  font-family:'Russo One', sans-serif;
+  letter-spacing: 5px;
+}
+#menu li a:hover{
+  transition: 0.5s all;
+  transform: scaleY(1);
+  border: none;
+  color: #fff;
+  background-color: rgba(0,0,0,.4);
+  font-size: 130%;
+}
+form{
+  font-size: 16px;
+}
