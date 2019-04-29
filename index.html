@@ -2,19 +2,31 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style/style.css">
 <title></title>
 </head>
 <body>
-	<form action="index.php" method="post">
-		<p>Заболевания(если имеются):
-			<input type="text" name="name" list="list">
-			<input type="submit">
-		</p>
-		<!--<datalist id="list">
-			<option>тахикардия</option>
-			<option>ишемия</option>
-		</datalist> -->
-	</form>
+	<nav>
+		<div class="headline">
+			<div class="container">
+				<ul id="menu">
+					<li><a href="javascript://0">1</br></a></li>
+					<li><a href="javascript://0">2</br></a></li>
+					<li><a href="javascript://0">3</br></a></li>
+					<li><a href="javascript://0">4</br></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<main>
+		<div class="container">
+			<form action="index.php" method="get">
+				<p>Заболевания(если имеются):
+					<input type="text" name="illness" list="list">
+					<input type="submit">
+				</p>
+			</form>
+		</div>
+	</main>
 </body>
 </html>
